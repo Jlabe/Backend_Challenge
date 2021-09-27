@@ -1,28 +1,28 @@
 # Backend_Challenge
 
-# Install Dependencies
+## Install Dependencies
 ```shell script
 pip install -r requirements.txt
 ```
-# How to run the server
+## How to run the server
 
 ```shell script
 python manage.py runserver
 ```
 
-# How to run the tests
+## How to run the tests
 
 ```shell script
 python manage.py test
 ```
 
-# Example JSON post body for /create
+## Example JSON post body for /create
 
 ```shell script
 curl --location --request POST 'http://127.0.0.1:8000/create/' --header 'Content-Type: application/json' --data-raw '[1,3,5]'
 ```
 
-# Example JSON post body for /validate
+## Example JSON post body for /validate
 
 ```shell script
 curl --location --request POST 'http://127.0.0.1:8000/validate/' --header 'Content-Type: application/json' --data-raw '{
